@@ -4,7 +4,8 @@ public class PowerApp{
   public static void main(String[] args){
   	double result = 1.0;
   	for(int i=0; i<366; ++i) result *=1.01;
-  	System.out.println(result); //Compound value
-  	System.out.println(Math.pow(1.01, 365.0)); //Power value
+  	System.out.println(result);                 //Compound value  38.161268676216146
+  	System.out.println(Math.pow(1.01, 365.0));  //Power value     37.78343433288728 
   }
 }
+
